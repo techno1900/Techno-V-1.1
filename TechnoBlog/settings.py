@@ -88,13 +88,25 @@ WSGI_APPLICATION = 'TechnoBlog.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'postgres',
+#         'USER': 'postgres',
+#         'PASSWORD': 'sT5gtfslEgNQugq4',
+#         'HOST': 'db.xcfpgyyojjwuazhyrene.supabase.co',
+#         'PORT': '5432',
+#     }
+# }
+
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'sT5gtfslEgNQugq4',
-        'HOST': 'db.xcfpgyyojjwuazhyrene.supabase.co',
+        'NAME': 'verceldb',
+        'USER': 'default',
+        'PASSWORD': 'S1bznJZK7idc',
+        'HOST': 'ep-silent-waterfall-00622038-pooler.us-east-1.postgres.vercel-storage.com',
         'PORT': '5432',
     }
 }
