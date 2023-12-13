@@ -1,7 +1,3 @@
-# Create a virtual environment
-echo "Creating a virtual environment..."
-source env/Script/activate
-
 
 # Build the project
 echo "Building the project..."
