@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-603#6i@+r4hal9u-*(#-a^sx^_ok4qdq*_*-2!5!(eu=uwy!-i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['.vercel.app','.now.sh', '127.0.0.1']
+ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1']
 
 
 # Application definition
@@ -153,7 +153,6 @@ STATICFILES_DIRS = [BASE_DIR/'static']
 STATIC_ROOT = BASE_DIR /'staticfiles'
 
 
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 
 # Default primary key field type
